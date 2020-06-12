@@ -1,0 +1,107 @@
+[Proxy]
+
+# cylink pro
+专线 新加坡 01 [2.5x | SZ-DEF] = ss, 120.25.254.64, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 新加坡 02 [2.5x | SZ-DEF] = ss, 47.115.157.95, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 新加坡 03 [2.5x | SZ-DEF] = ss, 47.115.156.221, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 新加坡 04 [2.5x | SZ-DEF] = ss, 47.115.81.141, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 新加坡 05 [2.5x | SH-DEF] = ss, 106.14.124.3, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 新加坡 06 [2.5x | SH-DEF] = ss, 101.132.117.251, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 美国 01 [2.5x | SH-DEF] = ss, 139.196.17.16, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 美国 02 [2.5x | SH-DEF] = ss, 139.196.39.61, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 香港 01 [2.5x | SZ-DEF] = ss, 39.108.51.4, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 香港 02 [2.5x | SZ-DEF] = ss, 120.77.206.114, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 香港 03 [2.5x | SZ-DEF] = ss, 39.108.58.68, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 香港 04 [2.5x | SZ-DEF] = ss, 39.108.60.6, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 香港 05 [2.5x | SZ-DEF] = ss, 119.23.211.6, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 香港 06 [2.5x | SZ-DEF] = ss, 39.108.59.11, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 香港 07 [2.5x | SZ-DEF] = ss, 120.77.203.17, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 香港 08 [2.5x | SZ-DEF] = ss, 120.77.213.77, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 香港 09 [2.5x | SH-DEF] = ss, 139.196.40.164, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+专线 香港 10 [2.5x | SH-DEF] = ss, 106.14.200.106, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+游戏 德国 01 [5x | BJ-VU] = ss, 123.57.191.190, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+游戏 日本 01 [6x | SH-VU] = ss, 47.101.36.174, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+游戏 日本 02 [6x | SH-VU] = ss, 47.100.51.35, 32841, encrypt-method=chacha20-ietf, password=php2b2aprh, udp-relay=true
+
+# nf^2
+N000 上海-香港-1000M ×5 = custom,47.100.191.236,33850,aes-128-cfb,gRJ9fG,udp-relay=true
+N001 深圳-香港-1000M ×5 = custom,47.100.191.236,33850,aes-128-cfb,gRJ9fG,udp-relay=true
+N002 上海-美国-HE-1000M ×5 = custom,47.100.46.77,33850,aes-128-cfb,gRJ9fG,udp-relay=true
+N003 上海-美国-1000M ×5 = custom,9433d645-fd47-4994-a647-bebbed1387fc.st2046.net,32850,aes-128-cfb,gRJ9fG,udp-relay=true
+N004 深圳-美国-HE-1000M ×5 = custom,219b0fb8-0077-4b4f-aa89-adac910f0b1f.st2046.net,32850,aes-128-cfb,gRJ9fG,udp-relay=true
+N005 深圳-美国-1000M ×5 = custom,f89a9327-9683-4a4b-90ba-55cbf7581db3.st2046.net,33850,aes-128-cfb,gRJ9fG,udp-relay=true
+S000 上海-美国 ×5 = custom,b4de3877-1a75-40a7-8ffa-e42ec28c65fb.st2046.net,38850,aes-128-cfb,gRJ9fG,udp-relay=true
+S001 深圳-美国 ×5 = custom,97f2721d-d707-4259-be9c-de9360e99ae5.st2046.net,39850,aes-128-cfb,gRJ9fG,udp-relay=true
+S002 上海-香港 ×5 = custom,47.100.191.236,31850,aes-128-cfb,gRJ9fG,udp-relay=true
+S003 深圳-香港 ×5 = custom,47.107.85.236,31850,aes-128-cfb,gRJ9fG,udp-relay=true
+S111 深圳-香港 ×5 = custom,47.107.85.236,32850,aes-128-cfb,gRJ9fG,udp-relay=true
+S121 上海-香港 ×5 = custom,47.100.191.236,32850,aes-128-cfb,gRJ9fG,udp-relay=true
+S131 北京-香港 ×5 = custom,39592ec9-8625-485c-9c2a-df8cdf34abab.st2046.net,31850,aes-128-cfb,gRJ9fG,udp-relay=true
+S141 杭州-香港 ×5 = custom,2c1c3fdb-f783-4037-883e-33c6a32d076b.st2046.net,31850,aes-128-cfb,gRJ9fG,udp-relay=true
+S151 青岛-香港 ×5 = custom,3e989a53-d9bb-4024-a981-3f10f749ea27.st2046.net,31850,aes-128-cfb,gRJ9fG,udp-relay=true
+S211 深圳-美国 ×5 = custom,97f2721d-d707-4259-be9c-de9360e99ae5.st2046.net,32850,aes-128-cfb,gRJ9fG,udp-relay=true
+S212 深圳-美国-流媒体 ×5 = custom,97f2721d-d707-4259-be9c-de9360e99ae5.st2046.net,40850,aes-128-cfb,gRJ9fG,udp-relay=true
+S221 上海-美国 ×5 = custom,b4de3877-1a75-40a7-8ffa-e42ec28c65fb.st2046.net,32850,aes-128-cfb,gRJ9fG,udp-relay=true
+S222 上海-美国-流媒体 ×5 = custom,b4de3877-1a75-40a7-8ffa-e42ec28c65fb.st2046.net,40850,aes-128-cfb,gRJ9fG,udp-relay=true
+S231 北京-美国 ×5 = custom,39592ec9-8625-485c-9c2a-df8cdf34abab.st2046.net,32850,aes-128-cfb,gRJ9fG,udp-relay=true
+S232 北京-美国-流媒体 ×5 = custom,39592ec9-8625-485c-9c2a-df8cdf34abab.st2046.net,40850,aes-128-cfb,gRJ9fG,udp-relay=true
+S241 杭州-美国 ×5 = custom,2c1c3fdb-f783-4037-883e-33c6a32d076b.st2046.net,32850,aes-128-cfb,gRJ9fG,udp-relay=true
+S242 杭州-美国-流媒体 ×5 = custom,2c1c3fdb-f783-4037-883e-33c6a32d076b.st2046.net,40850,aes-128-cfb,gRJ9fG,udp-relay=true
+S251 青岛-美国 ×5 = custom,3e989a53-d9bb-4024-a981-3f10f749ea27.st2046.net,32850,aes-128-cfb,gRJ9fG,udp-relay=true
+S252 青岛-美国-流媒体 ×5 = custom,3e989a53-d9bb-4024-a981-3f10f749ea27.st2046.net,40850,aes-128-cfb,gRJ9fG,udp-relay=true
+S311 深圳-日本 ×5 = custom,97f2721d-d707-4259-be9c-de9360e99ae5.st2046.net,33850,aes-128-cfb,gRJ9fG,udp-relay=true
+S321 上海-日本 ×5 = custom,b4de3877-1a75-40a7-8ffa-e42ec28c65fb.st2046.net,33850,aes-128-cfb,gRJ9fG,udp-relay=true
+S331 北京-日本 ×5 = custom,39592ec9-8625-485c-9c2a-df8cdf34abab.st2046.net,33850,aes-128-cfb,gRJ9fG,udp-relay=true
+S341 杭州-日本 ×5 = custom,2c1c3fdb-f783-4037-883e-33c6a32d076b.st2046.net,33850,aes-128-cfb,gRJ9fG,udp-relay=true
+S351 青岛-日本 ×5 = custom,47.104.26.187,33850,aes-128-cfb,gRJ9fG,udp-relay=true
+S411 深圳-新加坡 ×5 = custom,97f2721d-d707-4259-be9c-de9360e99ae5.st2046.net,36850,aes-128-cfb,gRJ9fG,udp-relay=true
+S421 上海-新加坡 ×5 = custom,b4de3877-1a75-40a7-8ffa-e42ec28c65fb.st2046.net,36850,aes-128-cfb,gRJ9fG,udp-relay=true
+S431 北京-新加坡 ×5 = custom,39592ec9-8625-485c-9c2a-df8cdf34abab.st2046.net,36850,aes-128-cfb,gRJ9fG,udp-relay=true
+S441 杭州-新加坡 ×5 = custom,2c1c3fdb-f783-4037-883e-33c6a32d076b.st2046.net,36850,aes-128-cfb,gRJ9fG,udp-relay=true
+S451 青岛-新加坡 ×5 = custom,3e989a53-d9bb-4024-a981-3f10f749ea27.st2046.net,36850,aes-128-cfb,gRJ9fG,udp-relay=true
+S511 深圳-台灣 ×5 = custom,97f2721d-d707-4259-be9c-de9360e99ae5.st2046.net,35850,aes-128-cfb,gRJ9fG,udp-relay=true
+S521 上海-台灣 ×5 = custom,b4de3877-1a75-40a7-8ffa-e42ec28c65fb.st2046.net,35850,aes-128-cfb,gRJ9fG,udp-relay=true
+S531 北京-台灣 ×5 = custom,39592ec9-8625-485c-9c2a-df8cdf34abab.st2046.net,35850,aes-128-cfb,gRJ9fG,udp-relay=true
+S541 杭州-台灣 ×5 = custom,2c1c3fdb-f783-4037-883e-33c6a32d076b.st2046.net,35850,aes-128-cfb,gRJ9fG,udp-relay=true
+S551 青岛-台灣 ×5 = custom,47.104.26.187,35850,aes-128-cfb,gRJ9fG,udp-relay=true
+S611 深圳-韩国 ×5 = custom,97f2721d-d707-4259-be9c-de9360e99ae5.st2046.net,34850,aes-128-cfb,gRJ9fG,udp-relay=true
+S621 上海-韩国 ×5 = custom,b4de3877-1a75-40a7-8ffa-e42ec28c65fb.st2046.net,34850,aes-128-cfb,gRJ9fG,udp-relay=true
+S631 北京-韩国 ×5 = custom,39592ec9-8625-485c-9c2a-df8cdf34abab.st2046.net,34850,aes-128-cfb,gRJ9fG,udp-relay=true
+S641 杭州-韩国 ×5 = custom,2c1c3fdb-f783-4037-883e-33c6a32d076b.st2046.net,34850,aes-128-cfb,gRJ9fG,udp-relay=true
+S651 青岛-韩国 ×5 = custom,54b26b15-5cb8-4e09-8b12-4cb32228dcff.st2046.net,34850,aes-128-cfb,gRJ9fG,udp-relay=true
+S711 深圳-加拿大 ×5 = custom,97f2721d-d707-4259-be9c-de9360e99ae5.st2046.net,37850,aes-128-cfb,gRJ9fG,udp-relay=true
+S721 上海-加拿大 ×5 = custom,b4de3877-1a75-40a7-8ffa-e42ec28c65fb.st2046.net,37850,aes-128-cfb,gRJ9fG,udp-relay=true
+S731 北京-加拿大 ×5 = custom,39592ec9-8625-485c-9c2a-df8cdf34abab.st2046.net,37850,aes-128-cfb,gRJ9fG,udp-relay=true
+S741 杭州-加拿大 ×5 = custom,2c1c3fdb-f783-4037-883e-33c6a32d076b.st2046.net,37850,aes-128-cfb,gRJ9fG,udp-relay=true
+S751 青岛-加拿大 ×5 = custom,47.104.26.187,37850,aes-128-cfb,gRJ9fG,udp-relay=true
+S811 深圳-印度 ×5 = custom,97f2721d-d707-4259-be9c-de9360e99ae5.st2046.net,41850,aes-128-cfb,gRJ9fG,udp-relay=true
+S821 上海-阿根廷 ×5 = custom,b4de3877-1a75-40a7-8ffa-e42ec28c65fb.st2046.net,41850,aes-128-cfb,gRJ9fG,udp-relay=true
+S831 北京-土耳其 ×5 = custom,39592ec9-8625-485c-9c2a-df8cdf34abab.st2046.net,41850,aes-128-cfb,gRJ9fG,udp-relay=true
+
+[Proxy Group]
+上海-香港 = fallback, N000 上海-香港-1000M ×5, S002 上海-香港 ×5, 专线 香港 10 [2.5x | SH-DEF], 专线 香港 09 [2.5x | SH-DEF], url=http://www.gstatic.com/generate_204, interval=300, timeout=3
+深圳-香港 = fallback, N001 深圳-香港-1000M ×5, S111 深圳-香港 ×5, 专线 香港 07 [2.5x | SZ-DEF], 专线 香港 04 [2.5x | SZ-DEF], url=http://www.gstatic.com/generate_204, interval=300, timeout=3
+北方-香港 = fallback, S131 北京-香港 ×5, S151 青岛-香港 ×5, S141 杭州-香港 ×5, url=http://www.gstatic.com/generate_204, interval=300, timeout=3
+上海-美国 = fallback, N002 上海-美国-HE-1000M ×5, N004 深圳-美国-HE-1000M ×5, S222 上海-美国-流媒体 ×5, S221 上海-美国 ×5, 专线 美国 02 [2.5x | SH-DEF], 专线 美国 01 [2.5x | SH-DEF], url=http://www.gstatic.com/generate_204, interval=300, timeout=3
+北方-美国 = fallback, S232 北京-美国-流媒体 ×5, S231 北京-美国 ×5, S252 青岛-美国-流媒体 ×5, S251 青岛-美国 ×5, url=http://www.gstatic.com/generate_204, interval=300, timeout=3
+
+美国 = select, 上海-美国, 北方-美国
+香港 = select, 北方-香港, 深圳-香港, 上海-香港
+日本 = fallback, S331 北京-日本 ×5, S321 上海-日本 ×5, S311 深圳-日本 ×5, 游戏 日本 02 [6x | SH-VU], 游戏 日本 01 [6x | SH-VU], url=http://www.gstatic.com/generate_204, interval=300, timeout=3
+韩国 = fallback, S631 北京-韩国 ×5, S651 青岛-韩国 ×5, S621 上海-韩国 ×5, url=http://www.gstatic.com/generate_204, interval=300, timeout=3
+台湾 = fallback, S521 上海-台灣 ×5, S551 青岛-台灣 ×5, S541 杭州-台灣 ×5, url=http://www.gstatic.com/generate_204, interval=300, timeout=3
+新加坡 = fallback, S431 北京-新加坡 ×5, S421 上海-新加坡 ×5, 专线 新加坡 06 [2.5x | SH-DEF], 专线 新加坡 02 [2.5x | SZ-DEF], url=http://www.gstatic.com/generate_204, interval=300, timeout=3
+加拿大 = fallback, S731 北京-加拿大 ×5, S751 青岛-加拿大 ×5, S721 上海-加拿大 ×5, url=http://www.gstatic.com/generate_204, interval=300, timeout=3
+其他 = select, S811 深圳-印度 ×5, S821 上海-阿根廷 ×5, S831 北京-土耳其 ×5,游戏 德国 01 [5x | BJ-VU], url=http://www.gstatic.com/generate_204, interval=300, timeout=3
+
+[MambaOut] = ssid, default = 🍷Proxy, cellular = 🍷Proxy, "BAIDU" = 🐻百度, "$5PerHour" = DIRECT, "$2PerHour" = DIRECT
+🍷Proxy = select, 美国, 香港, 日本, 韩国, 台湾, 新加坡, 加拿大, 其他
+🐻百度 = select, DIRECT, 美国, 香港, 日本, 韩国, 台湾, 新加坡, 加拿大, 其他
+📺电视 = select, 美国, 香港, 日本, 韩国, 台湾, 新加坡, 加拿大, 其他
+🇭🇰兜底 = select, 香港, DIRECT
+🇯🇵兜底 = select, 日本, DIRECT
+🇺🇸兜底 = select, 美国, DIRECT
+🇭🇰ssid = ssid, default = 🇭🇰兜底, "$5PerHour" = DIRECT, "$2PerHour" = DIRECT
+🇯🇵ssid = ssid, default = 🇯🇵兜底, "$5PerHour" = DIRECT, "$2PerHour" = DIRECT
+🇺🇸ssid = ssid, default = 🇺🇸兜底, "$5PerHour" = DIRECT, "$2PerHour" = DIRECT
+🧱ssid = ssid, default = 📺电视, "$5PerHour" = DIRECT, "$2PerHour" = DIRECT
